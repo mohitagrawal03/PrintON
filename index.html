@@ -20,12 +20,45 @@
     </nav>
     <section id = "frontpage">
         <div class="section__pic-container">
-            <img src ="image1.jpg" width=200>
+            <img src ="image1.png">
         </div>
         <div class="section__text">
+            <div class="tag_line">
+                <span id="t1">Say </span><span id="t2">Hello! </span><span id="t3">to Convenience.</span>
+            </div>
             <p class="section__text__p1">Upload your files</p>
-            <label>Upload File:</label>
-            <input type="file">
+            <div class="btn-container">
+                <form action="/upload" method="post" enctype="multipart/form-data">
+                    <div>
+                        <label for="fileInput" class="custom-file-upload">
+                            <input type="file" id="fileInput" name="fileInput">
+                            Choose file
+                        </label>
+                    </div>
+                    <br>
+                    <button id="upload_button">Upload</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section id="how_PrintON_works_container">
+        <title>How PrintON works?</title>
+        <div id="how_PrintON_works_steps_container">
+            <div id="how_PrintON_works_step1">
+                <i class="fa-solid fa-right-to-bracket"></i>
+            </div>
+            <div id="how_PrintON_works_step2">
+                <i class="fa-solid fa-right-to-bracket"></i>
+            </div>
+            <div id="how_PrintON_works_step3">
+                <i class="fa-solid fa-right-to-bracket"></i>
+            </div>
+            <div id="how_PrintON_works_step4">
+                <i class="fa-solid fa-right-to-bracket"></i>
+            </div>
+            <div id="how_PrintON_works_step5">
+                <i class="fa-solid fa-right-to-bracket"></i>
+            </div>
         </div>
     </section>
 
